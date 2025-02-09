@@ -69,5 +69,3 @@ The following pivot tables were built to summarize and analyze the data:
 - The **busiest hours** were from **7 AM to 11 AM**, indicating that staff should be prioritized during these times. After **7 PM**, sales drop significantly, raising the question of whether operating hours should be reduced.  
 - Additionally, the analysis highlighted the **top revenue-generating products** for each of the three stores.  
 
-#analytics #excel #dashboard #pivottable
-
