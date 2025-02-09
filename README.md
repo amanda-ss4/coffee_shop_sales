@@ -16,7 +16,7 @@ Several transformations were applied to the data in Excel to improve its analysi
    Formula: `MONTH(transaction_date)`
 
 3. **Created two columns for the day of the week:**  
-   - **`Weekday_num`**: Numeric day of the week using `WEEKDAY(transaction_date)`  
+   - **`Week_day`**: Numeric day of the week using `WEEKDAY(transaction_date)`  
    - **`Weekday_name`**: Abbreviated name of the day using `TEXT(transaction_date, "DDD")`
    
 4. **Created an `Hour` column**  
@@ -57,8 +57,16 @@ The following pivot tables were built to summarize and analyze the data:
 3. **Transactions by Hour of the Day** – Column Chart: Useful for identifying peak transaction times during the day.
 
 4. **Transaction Count and Revenue by Product Type (Top 15)**  
-   Columns: `product_type`, `transaction_qty`, and `Revenue`
+
 
 ![Texto Alternativo](images/dasboards.png)
-![Texto Alternativo](images/dashboards 2.png)
+![Texto Alternativo](images/dashboards2.png)
+
+## 🔍 Analysis Summary  
+
+- The analysis showed **total revenue growth** throughout the first half of 2023.  
+- The most sold products were from the **Coffee** category, while **Packaged Chocolate** was the least sold.  
+- The **busiest hours** were from **7 AM to 11 AM**, indicating that staff should be prioritized during these times. After **7 PM**, sales drop significantly, raising the question of whether operating hours should be reduced.  
+- Additionally, the analysis highlighted the **top revenue-generating products** for each of the three stores.  
+
 
