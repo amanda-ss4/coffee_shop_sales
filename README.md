@@ -21,7 +21,7 @@ Several transformations were applied to the data in Excel to improve its analysi
    
 4. **Created an `Hour` column**  
    Formula: `HOUR(transaction_time)`
-
+![Texto Alternativo](images/new_columns.png)
 ---
 
 ### Step 2: Pivot Tables Creation  
@@ -36,8 +36,15 @@ The following pivot tables were built to summarize and analyze the data:
 3. **Transaction Count by Product Category**  
    Columns: `product_category` and `transaction_qty`  
 
-4. **Transaction Count and Revenue by Product Type (Top 15)**  
-   Columns: `product_type`, `transaction_qty`, and `Revenue`  
+4. **Transaction by Hour of Day**  
+   Columns: `Hour`, `transaction_qty`.
+   
+![Texto Alternativo](images/month_revenue.png)
+![Texto Alternativo](images/weekday_qty.png)
+![Texto Alternativo](images/category_qty.png)
+![Texto Alternativo](images/hour_qty.png)
+
+
 
 ---
 
@@ -48,3 +55,10 @@ The following pivot tables were built to summarize and analyze the data:
 2. **Transactions by Day of the Week** – Column Chart: A column chart clearly highlights differences between weekdays.  
 
 3. **Transactions by Hour of the Day** – Column Chart: Useful for identifying peak transaction times during the day.
+
+4. **Transaction Count and Revenue by Product Type (Top 15)**  
+   Columns: `product_type`, `transaction_qty`, and `Revenue`
+
+![Texto Alternativo](images/dasboards.png)
+![Texto Alternativo](images/dashboards 2.png)
+
